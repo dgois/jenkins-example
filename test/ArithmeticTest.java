@@ -13,6 +13,6 @@ public class ArithmeticTest {
 		long actual = arithmetic.calculate("+");
 		
 		assertEquals(3, actual);
-	}	
+	}
 
 }
