@@ -27,4 +27,10 @@ public class Arithmetic {
 		
 		return operation.calculate(numberOne, numberTwo);
 	}
+
+	public static void main(String[] args) {
+		
+		long result = new Arithmetic(Integer.parseInt(args[0]), Integer.parseInt(args[2])).calculate(args[1]);
+		System.out.println(result);
+	}
 }
